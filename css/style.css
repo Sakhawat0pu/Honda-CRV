@@ -42,9 +42,19 @@ main .text-color{
 .font-size{
     font-size: 14px;
 }
+.last-sec{
+    width: 87% !important;
+    height: 432px !important;
+}
 
-
-
+/* Footer Part  */
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer .img-width{
+    width: 180px !important;
+}
 
 /* media-queries */
 
@@ -54,5 +64,17 @@ main .text-color{
     }
     .client-say{
         width: 100% !important;
+    }
+    .last-sec{
+        width: 100% !important;
+    }
+    .pad-right-sm{
+        padding-right: 50px;
+    }
+    .no-pad-small{
+        padding-left: 0 !important;
+    }
+    .display-small-none{
+        display: none;
     }
 }
