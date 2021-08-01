@@ -12,7 +12,9 @@
     <!-- Google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/23f8ab8e5b.js" crossorigin="anonymous"></script>
     <!-- Style Sheet link  -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -20,7 +22,7 @@
 
 <body>
     <!----------------------- header part of the body starts ---------------------->
-    <header>
+    <header class="mb-5">
         <!-------------------------- navbar starts ---------------------------->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container pt-4">
@@ -54,7 +56,7 @@
         <!------------------------- navbar ends ------------------------>
 
         <!------------ second part of header  starts -------------->
-        <section class="container d-lg-flex align-items-center justify-content-between py-5">
+        <section class="container d-lg-flex align-items-center justify-content-between py-4">
             <div class="mb-4">
                 <p class="text-secondary">
                     Computer-controlled digital transistorized with electronic advance
@@ -109,7 +111,150 @@
     <!------------------------ main part of the body starts  ---------------------->
 
     <main>
+        <!--------------- first section of main starts --------------->
+        <section class="container">
+            <div class="text-center mb-5 pb-5">
+                <h1 class="text-style">Featured Bikes 2021</h1>
+                <small class="text-color">Best Bike Collection</small>
+            </div>
+            <div class="d-lg-flex justify-content-between">
+                <div class="w-25 img-width mb-5 pb-5">
+                    <img src="images/feature-bike.jpg" class="img-fluid gray-scale" alt="">
+                </div>
+                <div class="w-25 img-width mb-5 pb-5">
+                    <img src="images/feature-bike.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="w-25 img-width mb-5 pb-5">
+                    <img src="images/feature-bike.jpg" class="img-fluid gray-scale" alt="">
+                </div>
+            </div>
+        </section>
+        <!--------------- first section of main ends --------------->
 
+        <!--------------- second section of main starts --------------->
+
+        <section class="container pb-5 mb-5">
+            <h1 class="text-style text-center pb-5">Latest News</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-1.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 pb-2">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text text-secondary pb-2">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae provident molestias
+                                quaerat ipsam perferendis natus animi minus!
+                            </p>
+                            <a href="#" class="btn button-color button-text-color px-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-2.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 pb-2">Motorcycles & Scooters</h5>
+                            <p class="card-text text-secondary pb-2">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae provident molestias
+                                quaerat ipsam perferendis natus animi minus!
+                            </p>
+                            <a href="#" class="btn btn-outline-text px-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/bike-3.png" class="card-img-top p-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 pb-2">2021 Honda CBR500R</h5>
+                            <p class="card-text text-secondary pb-2">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae provident molestias
+                                quaerat ipsam perferendis natus animi minus!
+                            </p>
+                            <a href="#" class="btn btn-outline-text px-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------- second section of main ends --------------->
+
+        <!--------------- third section of main starts --------------->
+
+        <section class="container mb-5 pb-5">
+            <h1 class="text-style text-center pb-5">Happy <span class="text-color">Client Says</span></h1>
+            <div class="d-lg-flex justify-content-around">
+                <div class="border w-25 rounded-3">
+                    <div class="w-50 mx-auto my-4">
+                        <img src="images/user-1.png" class="img-fluid" alt="">
+                    </div>
+                    <div>
+                        <p class="text-secondary text-center">Slate helps you see how<br>
+                            many more days you need<br>
+                            to work to reach your financial<br>
+                            goal for the month and year.
+                        </p>
+                        <div class="text-center pb-3">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                        </div>
+                        <p class="fw-bold font-size text-primary text-center">Regina Miles
+                        <p>
+                        <p class="text-black text-center">Banker</p>
+                    </div>
+                </div>
+                <div class="border w-25 rounded-3">
+                    <div class="w-50 mx-auto my-4">
+                        <img src="images/user-2.png" class="img-fluid" alt="">
+                    </div>
+                    <div>
+                        <p class="text-secondary text-center">Slate helps you see how<br>
+                            many more days you need<br>
+                            to work to reach your financial<br>
+                            goal for the month and year.
+                        </p>
+                        <div class="text-center pb-3">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                        </div>
+                        <p class="fw-bold font-size text-primary text-center">Regina Miles
+                        <p>
+                        <p class="text-black text-center">Banker</p>
+                    </div>
+                </div>
+                <div class="border w-25 rounded-3">
+                    <div class="w-50 mx-auto my-4">
+                        <img src="images/user-3.png" class="img-fluid" alt="">
+                    </div>
+                    <div>
+                        <p class="text-secondary text-center">Slate helps you see how<br>
+                            many more days you need<br>
+                            to work to reach your financial<br>
+                            goal for the month and year.
+                        </p>
+                        <div class="text-center pb-3">
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star filled"></i>
+                            <i class="fas fa-star text-secondary"></i>
+                        </div>
+                        <p class="fw-bold font-size text-primary text-center">Regina Miles
+                        <p>
+                        <p class="text-black text-center">Banker</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------- third section of main ends --------------->
     </main>
 
     <!------------------------ main part of the body ends  ------------------------>
