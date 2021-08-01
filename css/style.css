@@ -52,4 +52,7 @@ main .text-color{
     .img-width{
         width: 100% !important;
     }
+    .client-say{
+        width: 100% !important;
+    }
 }
